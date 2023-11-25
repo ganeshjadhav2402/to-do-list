@@ -2,4 +2,4 @@
 
 # Webpages for Website
 
-![Screenshot](./assests/Screenshot (6).png)
+![Screenshot 1](./assests/Screenshot (6).png)
