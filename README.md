@@ -8,3 +8,8 @@
 
 ![Screenshot (8)](https://github.com/ganeshjadhav2402/to-do-list/assets/108882321/60976c74-201b-4436-b3b1-04aee209f9a8)
 
+
+# *Author*
+
+* Ganesh Jadhav 
+  - <a href="https://linkedin.com/in/ganesh-jadhav-951213225" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ganesh-jadhav-951213225" height="30" width="40" /></a>
