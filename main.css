@@ -1,0 +1,191 @@
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--light: #EEE;
+	--blue: #007bff;
+	--indigo: #6610f2;
+	--purple: #5f27c6;
+	--red: #dc3545;
+	--orange: #fd7e14;
+	--yellow: #ffc107;
+	--green: #28a745;
+	--teal: #20c997;
+	--cyan: #17a2b8;
+	--white: #fff;
+	--gray-dark: #343a40;
+	--primary: #007bff;
+	--secondary: #6c757d;
+	--success: #28a745;
+	--info: #17a2b8;
+	--warning: #ffc107;
+	--danger: #dc3545;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Fira sans", sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	color: #FFF;
+	background: -webkit-gradient(linear, left top, right bottom, from(#af5e94), to(#5949f2))fixed;
+}
+
+header {
+	padding: 5rem 1rem;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+header h1 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	color: var(--light);
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+#new-task-form {
+	display: flex;
+	;
+}
+
+input,
+button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+#new-task-input {
+	flex: 1 1 0%;
+	background-color: var(--darker);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	color: var(--light);
+	font-size: 1.25rem;
+}
+
+#new-task-input::placeholder {
+	color: var(--grey);
+}
+
+#new-task-submit {
+	color: var(--pink);
+	font-size: 1.40rem;
+	font-weight: 800;
+	background-image: linear-gradient(to right, var(--orange), var(--red));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+#new-task-submit:hover {
+	opacity: 0.8;
+}
+
+#new-task-submit:active {
+	opacity: 0.6;
+}
+
+main {
+	flex: 1 1 0%;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.task-list {
+	padding: 1rem;
+}
+
+.task-list h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: var(--darkest);
+	margin-bottom: 1rem;
+}
+
+#tasks .task {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--darkest);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+.task .content {
+	flex: 1 1 0%;
+}
+
+.task .content .text {
+	color: var(--light);
+	font-size: 1.125rem;
+	width: 100%;
+	display: block;
+	transition: 0.4s;
+}
+
+.task .content .text:not(:read-only) {
+	color: var(--purple);
+}
+
+.task .actions {
+	display: flex;
+	margin: 0 -0.5rem;
+}
+
+.task .actions button {
+	cursor: pointer;
+	margin: 0 0.5rem;
+	font-size: 1.125rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+
+.task .actions button:hover {
+	opacity: 0.8;
+}
+
+.task .actions button:active {
+	opacity: 0.6;
+}
+
+.task .actions .edit {
+	background-image: linear-gradient(to right, var(--orange), var(--red));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.task .actions .delete {
+	color: #c7429b;
+}
+
+.contact i {
+	display: inline-flex;
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	font-size: 35px;
+	background-image: linear-gradient(to right, var(--pink), var(--primary));
+	color: #0ef;
+	border: 2px solid #0ef;
+	margin: 30px 15px 30px 0;
+	border-radius: 50%;
+	justify-content: center;
+
+}
