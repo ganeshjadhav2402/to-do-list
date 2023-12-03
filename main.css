@@ -189,3 +189,12 @@ main {
 	justify-content: center;
 
 }
+
+.last-text p {
+	width: 100%;
+	text-align: center;
+	padding: 25px 0;
+	background: rgb(200, 142, 225);
+	font-weight: 600;
+	margin-top: 70px;
+}
